@@ -18,13 +18,15 @@ const initialValues ={name:'', number:''}
   const onSubmit = (values, { resetForm }) => {
     
       const { name, number } = values; 
+      
       const newContact = { name, number }; 
 
        dispatch(addContact(newContact));
     resetForm();
   };
 
-  const onlyNumbers = /^\d{3}-\d{2}-\d{2}$/;
+  // const onlyNumbers = /^\d{3}-\d{2}-\d{2}$/;
+  const onlyNumbers = /^\d{3}-\d{3}-\d{4}$/;
   const registerSchema = Yup.object().shape({
     name: Yup.string()
       .min(3, 'Введіть мінімум 3 символи')

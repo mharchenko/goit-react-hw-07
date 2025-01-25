@@ -1,7 +1,5 @@
 
 
-
-
 import { FaUser } from 'react-icons/fa';
 import { FaPhoneAlt } from 'react-icons/fa';
 import s from './Contact.module.css';

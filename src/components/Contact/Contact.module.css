@@ -6,7 +6,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  width: 400px;
+  width: 450px;
   gap: 10px;
   border: 2px solid rgb(71, 57, 182);
   border-radius: 8px;
@@ -27,7 +27,7 @@ ul {
   border-radius: 4px;
   width: 120px;
   height: 40px;
-  margin: 0 auto;
+  margin:  auto;
 }
 
 .button:hover {
